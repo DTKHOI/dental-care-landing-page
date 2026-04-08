@@ -340,3 +340,74 @@ a {
 .btn__see-more {
     margin-top: 55px;
 }
+
+/* ----------------- Feature ----------------- */
+.feature {
+    padding: 100px 0;
+    background: #f6fbff;
+}
+
+.feature__heading {
+    color: var(--primary-color);
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
+.feature__desc {
+    font-size: 1.8rem;
+    max-width: 468px;
+    margin-top: 18px;
+}
+
+.feature__list {
+    margin-top: 86px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature__item {
+    border-radius: 4px;
+    background: #eaf6ff;
+    width: 370px;
+    height: 402px;
+    padding: 16px;
+}
+
+.feature__item--hover {
+    background: #2e80ce;
+    position: relative;
+    top: -16px;
+}
+
+.feature__item-body {
+    max-width: 338px;
+    height: 370px;
+    border-radius: 4px;
+    background: var(--tertiary-color);
+    padding: 42px;
+}
+
+.feature__item-title {
+    color: var(--primary-color);
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.38;
+    margin-top: 18px;
+}
+
+.feature__item-desc {
+    font-size: 1.6rem;
+    line-height: 1.75;
+    margin-top: 28px;
+    padding-bottom: 18px;
+}
+
+.feature__item-action {
+    color: #2e80ce;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+    padding: 8px 0;
+}
