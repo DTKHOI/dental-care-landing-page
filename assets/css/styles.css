@@ -518,8 +518,11 @@ a {
 
 .control {
     display: flex;
-    justify-content: center;
     column-gap: 18px;
+}
+
+.dentist__control {
+    justify-content: center;
 }
 
 .control__btn {
@@ -587,4 +590,91 @@ a {
     position: absolute;
     top: -94px;
     left: 70px;
+}
+
+/* -------------------------- News -------------------------- */
+.new {
+    margin-top: 170px;
+}
+
+.new__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.new__heading {
+    max-width: 470px;
+}
+
+.new__read {
+    margin-top: 28px;
+    color: #10375c;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.55;
+    display: block;
+}
+
+.new__read:hover {
+    text-decoration: underline;
+}
+
+.new__control {
+    margin-top: 28px;
+}
+
+.new__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+}
+
+.new__card {
+    border: 1px solid #e8ebee;
+    border-radius: 12px;
+}
+
+.new__card:hover {
+    box-shadow: 0 18px 50px 0 rgba(0, 0, 0, 0.05);
+    border: none;
+    cursor: pointer;
+}
+
+.new__thumb {
+    width: 270px;
+    height: 172px;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+}
+
+.new__card-content {
+    padding: 18px 22px 22px;
+}
+
+.new__card-title {
+    max-width: 224px;
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.62;
+}
+
+.new__card-desc {
+    margin-top: 10px;
+    font-size: 1.4rem;
+    line-height: 1.71;
+    max-width: 226px;
+}
+
+.new__card-more {
+    display: inline-block;
+    margin-top: 12px;
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.new__card-more:hover {
+    color: var(--fourth--color);
 }
