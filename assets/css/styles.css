@@ -710,3 +710,140 @@ a {
     display: flex;
     justify-content: center;
 }
+
+/* --------------------- Footer -------------------- */
+.footer {
+    margin-top: 170px;
+    padding: 100px 0 42px;
+    background: var(--primary-color);
+}
+
+.footer__text {
+    color: #a9b3bb;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.86;
+}
+
+.footer__link {
+    text-wrap: nowrap;
+    /* không hoạt động trên chorme version < 114 */
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+.footer__container {
+    display: flex;
+    gap: 78px;
+    align-items: start;
+}
+
+.footer__desc {
+    margin-top: 22px;
+    color: #a9b3bb;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    width: 336px;
+}
+
+.footer__title {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.footer__link-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer__link-container-2 {
+    gap: 14px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__column-row--2 {
+    margin-top: 28px;
+}
+
+.footer__social-row {
+    margin-top: 20px;
+    display: flex;
+    gap: 8px;
+}
+
+.footer__subscribe {
+    margin-top: 28px;
+}
+
+.footer__bg-social-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+    background: var(--tertiary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__bg-social-icon--hover {
+    background: var(--fourth--color);
+}
+
+.footer__subscribe-desc {
+    margin-top: 20px;
+    width: 273px;
+    color: #a9b3bb;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85;
+}
+
+.footer__subscribe-action {
+    margin-top: 10px;
+    display: flex;
+    gap: 12px;
+    justify-content: space-between;
+}
+
+.footer__btn {
+    border-radius: 4px;
+    min-width: 104px;
+    font-size: 1.4rem;
+    padding: 10px;
+    height: 46px;
+    color: var(--tertiary-color);
+    font-weight: 600;
+    line-height: 1.85;
+}
+
+.footer-form__input {
+    border-radius: 4px;
+    border: 1px solid #406181;
+    background: none;
+    width: 188px;
+    padding: 10px;
+}
+
+.footer__separate {
+    width: 100%;
+    height: 1px;
+    background: #406181;
+    margin-top: 28px;
+}
+.footer__copyright {
+    margin-top: 28px;
+    color: #aab3ba;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85;
+}
