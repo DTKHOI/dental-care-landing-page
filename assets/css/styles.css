@@ -71,8 +71,7 @@ a {
 .header {
     background: var(--primary-color);
     min-height: 100vh;
-    padding-top: 36px;
-    padding-bottom: 110px;
+    padding: 36px 0 110px;
 }
 
 .logo {
