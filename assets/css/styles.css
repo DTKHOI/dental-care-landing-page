@@ -678,3 +678,35 @@ a {
 .new__card-more:hover {
     color: var(--fourth--color);
 }
+
+/* --------------------- Appoinment -------------------- */
+.appointment {
+    margin-top: 170px;
+    padding: 100px 0;
+    background: #f6fbff;
+}
+
+.appointment__heading {
+    text-align: center;
+}
+
+.appointment__separate {
+    width: 136px;
+    height: 2px;
+    background: var(--fourth--color);
+    margin: 18px auto 0;
+}
+
+.appointment__desc {
+    max-width: 617px;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    text-align: center;
+    margin: 18px auto 0;
+}
+
+.appointment__row-btn {
+    margin-top: 38px;
+    display: flex;
+    justify-content: center;
+}
