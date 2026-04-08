@@ -404,3 +404,54 @@ a {
     line-height: 1.75;
     padding: 8px 0;
 }
+
+/* ----------------- Call to action ----------------- */
+.cta {
+    margin-top: 170px;
+}
+
+.cta__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cta__media {
+    max-width: 570px;
+    max-height: 491px;
+}
+
+.cta__img {
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.cta__img--shadow {
+    position: relative;
+    width: 512px;
+    height: 370px;
+    box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.07);
+}
+
+.cta__img--square {
+    position: relative;
+    width: 332px;
+    height: 370px;
+    left: 238px;
+    top: -250px;
+}
+
+.cta__heading {
+    max-width: 470px;
+}
+
+.cta__desc {
+    margin-top: 18px;
+    max-width: 468px;
+    font-size: 1.8rem;
+    line-height: 1.67;
+}
+
+.cta__action {
+    margin-top: 38px;
+}
