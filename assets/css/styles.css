@@ -51,9 +51,16 @@ a {
     cursor: pointer;
 }
 
+.heading {
+    color: var(--primary-color);
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
 .main-desc {
     color: #575f66;
-    font-style: normal;
     font-weight: 300;
     line-height: 1.67;
 }
@@ -251,13 +258,7 @@ a {
 }
 
 .service__heading {
-    color: var(--primary-color);
     text-align: center;
-    font-size: 5rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.2;
-    letter-spacing: -1px;
 }
 
 .service__desc {
@@ -345,14 +346,6 @@ a {
 .feature {
     padding: 100px 0;
     background: #f6fbff;
-}
-
-.feature__heading {
-    color: var(--primary-color);
-    font-size: 5rem;
-    font-weight: 600;
-    line-height: 1.2;
-    letter-spacing: -1px;
 }
 
 .feature__desc {
