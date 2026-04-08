@@ -19,6 +19,7 @@ a {
 :root {
     --primary-color: #10375c;
     --secondary-color: #575f66;
+    --tertiary-color: white;
     --footer-desc-color: #a9b3bb;
     --header-desc-color: #c9d2da;
 }
@@ -32,14 +33,15 @@ a {
 }
 
 .btn {
-    color: #fff;
+    display: inline-block;
+    color: var(--tertiary-color);
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 1.67;
-    border-radius: 30px;
+    border-radius: 999px;
     background: #2e80ce;
-    padding: 16px 14px;
-    min-width: 205;
+    padding: 15px 20px;
+    min-width: 205px;
     height: 60px;
     text-align: center;
 }
@@ -56,6 +58,7 @@ a {
     background: var(--primary-color);
     min-height: 100vh;
     padding-top: 36px;
+    padding-bottom: 110px;
 }
 
 .logo {
@@ -80,7 +83,7 @@ a {
 .logo__circle::after {
     width: 1.6em;
     height: 1.6em;
-    background: white;
+    background: var(--tertiary-color);
     position: absolute;
     top: 1.1em;
     left: 1.1em;
@@ -88,7 +91,7 @@ a {
 
 .logo__text {
     display: block;
-    color: white;
+    color: var(--tertiary-color);
     font-style: normal;
     margin-left: 6px;
 }
@@ -126,12 +129,12 @@ a {
 
 .navbar__link:hover {
     content: "";
-    color: white;
+    color: var(--tertiary-color);
     text-shadow: 1px 0 0 currentColor;
 }
 
 .navbar__link--active {
-    color: #fff;
+    color: var(--tertiary-color);
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 1.75;
@@ -143,7 +146,7 @@ a {
     width: 6px;
     height: 6px;
     border-radius: 50%;
-    background: white;
+    background: var(--tertiary-color);
     position: relative;
     top: -2px;
     left: 12px;
@@ -164,10 +167,73 @@ a {
 
 .btn--small {
     min-width: 104px;
-    height: 44px;
-    border: 22px;
-    padding: 12px 19px;
     font-size: 1.6rem;
+    padding: 8px;
+    height: 44px;
+}
+
+/* ---------------------- Hero ----------------------- */
+.hero {
+    margin-top: 76px;
+    display: flex;
+    align-items: center;
+    gap: 113px;
+}
+
+/* Hero content */
+.hero__heading {
+    color: var(--tertiary-color);
+    font-size: 7rem;
+    font-weight: 600;
+    line-height: 1.14;
+    letter-spacing: -1.4px;
+}
+
+.hero__desc {
+    margin-top: 22px;
+    color: var(--footer-desc-color);
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.67;
+    max-width: 468px;
+}
+
+.hero__actions {
+    margin-top: 38px;
+}
+
+.hero__phone-number {
+    color: var(--tertiary-color);
+    font-size: 1.8rem;
     font-weight: 400;
-    line-height: 1.75;
+    line-height: 1.67;
+    margin-left: 38px;
+}
+
+/* Hero media */
+.hero__media {
+    max-width: 50%;
+}
+
+.hero__images {
+    display: flex;
+    align-items: center;
+}
+
+.hero__img {
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.hero__img--big {
+    max-width: 330px;
+    height: 540px;
+    z-index: 1;
+}
+
+.hero__img--small {
+    max-width: 210px;
+    height: 410px;
+    position: relative;
+    right: 5px;
 }
