@@ -20,6 +20,7 @@ a {
     --primary-color: #10375c;
     --secondary-color: #575f66;
     --tertiary-color: white;
+    --fourth--color: #2e80ce;
     --footer-desc-color: #a9b3bb;
     --header-desc-color: #c9d2da;
 }
@@ -538,4 +539,52 @@ a {
 .control__btn--next {
     background: #2e80ce;
     border: 1px solid #2e80ce;
+}
+
+/* --------------------- Install ---------------------- */
+.install {
+    margin-top: 170px;
+}
+
+.install__container {
+    padding: 75px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--fourth--color);
+    position: relative;
+    border-radius: 4px;
+}
+
+.install__heading {
+    color: var(--tertiary-color);
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    max-width: 489px;
+}
+
+.install__desc {
+    margin-top: 18px;
+    color: var(--tertiary-color);
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.67;
+    max-width: 586px;
+}
+
+.install__download {
+    margin-top: 38px;
+}
+
+.install__app-store {
+    margin-left: 28px;
+}
+
+.install__img {
+    position: absolute;
+    top: -94px;
+    left: 70px;
 }
