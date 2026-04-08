@@ -547,9 +547,9 @@ a {
 }
 
 .install__container {
-    padding: 75px 0;
+    padding: 75px 70px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background: var(--fourth--color);
     position: relative;
