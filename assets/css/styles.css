@@ -71,8 +71,10 @@ a {
 /* Logo */
 .header {
     background: var(--primary-color);
-    min-height: 100vh;
-    padding: 36px 0 110px;
+    padding: 36px 0 8px;
+    position: sticky;
+    top: -28px;
+    z-index: 2;
 }
 
 .logo {
@@ -123,7 +125,8 @@ a {
 }
 
 /* Navbar */
-.container {
+.container,
+.hero-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -188,10 +191,12 @@ a {
 
 /* ---------------------- Hero ----------------------- */
 .hero {
-    margin-top: 76px;
+    padding: 68px 0 110px;
     display: flex;
     align-items: center;
     gap: 113px;
+    min-height: 100vh;
+    background: var(--primary-color);
 }
 
 /* Hero content */
@@ -201,6 +206,7 @@ a {
     font-weight: 600;
     line-height: 1.14;
     letter-spacing: -1.4px;
+    width: 517px;
 }
 
 .hero__desc {
@@ -295,7 +301,7 @@ a {
     padding: 21px 22px;
 }
 
-.service__item--hover {
+.service__item:hover {
     background: var(--tertiary-color);
     box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.05);
 }
@@ -756,14 +762,14 @@ a {
     font-weight: 600;
 }
 
-.footer__link-container {
+.footer__link-list {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.footer__link-container-2 {
+.footer__link-list-2 {
     gap: 14px;
     margin-top: 24px;
     display: flex;

@@ -92,7 +92,7 @@
         />
         <meta name="theme-color" content="#ffffff" />
     </head>
-    <body">
+    <body>
         <header class="header">
             <div class="content">
                 <div class="container">
@@ -112,20 +112,24 @@
                         <ul class="navbar-list">
                             <li class="navbar__item navbar__item--active">
                                 <a
-                                    href="#!"
+                                    href="#"
                                     class="navbar__link navbar__link--active"
                                 >
                                     Home
                                 </a>
                             </li>
                             <li class="navbar__item">
-                                <a href="#!" class="navbar__link">Services</a>
+                                <a href="#service" class="navbar__link"
+                                    >Services</a
+                                >
                             </li>
                             <li class="navbar__item">
-                                <a href="#!" class="navbar__link">About</a>
+                                <a href="#about" class="navbar__link">About</a>
                             </li>
                             <li class="navbar__item">
-                                <a href="#!" class="navbar__link">Doctors</a>
+                                <a href="#dentist" class="navbar__link"
+                                    >Doctors</a
+                                >
                             </li>
                         </ul>
                     </nav>
@@ -135,9 +139,13 @@
                         <a href="#!" class="btn btn--small">Sign Up</a>
                     </div>
                 </div>
+            </div>
+        </header>
 
-                <!-- Hero -->
-                <section class="hero">
+        <!-- Hero -->
+        <section class="hero">
+            <div class="content">
+                <div class="hero-container">
                     <div class="hero__content">
                         <h1 class="hero__heading">
                             Exceptional dental care for all ages.
@@ -167,13 +175,13 @@
                             />
                         </figure>
                     </div>
-                </section>
+                </div>
             </div>
-        </header>
+        </section>
 
         <main>
             <!-- Service -->
-            <section class="service">
+            <section id="service" class="service">
                 <div class="content">
                     <h2 class="heading service__heading">Our services</h2>
                     <p class="main-desc service__desc">
@@ -375,7 +383,7 @@
             </section>
 
             <!-- Dentist -->
-            <section class="dentist">
+            <section id="dentist" class="dentist">
                 <div class="content">
                     <header class="dentist__header">
                         <h2 class="heading dentist__heading">
@@ -581,7 +589,7 @@
                                             Management?
                                         </h3>
                                         <p class="main-desc new__card-desc">
-                                            It’s easy to think about medical
+                                            It's easy to think about medical
                                             care from a narrow perspective. You
                                             go to the hospital.
                                         </p>
@@ -649,30 +657,58 @@
                         <div class="footer__column-row">
                             <h3 class="footer__title">Support</h3>
                             <nav class="footer__link-container">
-                                <a href="#!" class="footer__text footer__link"
-                                    >Help center</a
-                                >
-                                <a href="#!" class="footer__text footer__link"
-                                    >Account information</a
-                                >
-                                <a href="#!" class="footer__text footer__link"
-                                    >About</a
-                                >
-                                <a href="#!" class="footer__text footer__link"
-                                    >Contact us</a
-                                >
+                                <ul class="footer__link-list">
+                                    <li class="footer__link-item">
+                                        <a
+                                            href="#!"
+                                            class="footer__text footer__link"
+                                            >Help center</a
+                                        >
+                                    </li>
+                                    <li class="footer__link-item">
+                                        <a
+                                            href="#!"
+                                            class="footer__text footer__link"
+                                            >Account information</a
+                                        >
+                                    </li>
+                                    <li id="about" class="footer__link-item">
+                                        <a
+                                            href="#!"
+                                            class="footer__text footer__link"
+                                            >About</a
+                                        >
+                                    </li>
+                                    <li class="footer__link-item">
+                                        <a
+                                            href="#!"
+                                            class="footer__text footer__link"
+                                            >Contact us</a
+                                        >
+                                    </li>
+                                </ul>
                             </nav>
                         </div>
 
                         <div class="footer__column-row footer__column-row--2">
                             <h3 class="footer__title">Support</h3>
-                            <nav class="footer__link-container-2">
-                                <a href="#!" class="footer__text footer__link"
-                                    >Help center</a
-                                >
-                                <a href="#!" class="footer__text footer__link"
-                                    >Account information</a
-                                >
+                            <nav class="footer__link-container">
+                                <ul class="footer__link-list-2">
+                                    <li class="footer__link-item">
+                                        <a
+                                            href="#!"
+                                            class="footer__text footer__link"
+                                            >Help center</a
+                                        >
+                                    </li>
+                                    <li class="footer__link-item">
+                                        <a
+                                            href="#!"
+                                            class="footer__text footer__link"
+                                            >Account information</a
+                                        >
+                                    </li>
+                                </ul>
                             </nav>
                         </div>
                     </div>
@@ -681,21 +717,37 @@
                         <div class="footer__column-row">
                             <h3 class="footer__title">Support</h3>
                             <nav class="footer__link-container">
-                                <a href="#!" class="footer__text footer__link"
-                                    >Help center</a
-                                >
-                                <a href="#!" class="footer__text footer__link"
-                                    >Account information</a
-                                >
+                                <ul class="footer__link-list">
+                                    <li class="footer__link-item">
+                                        <a
+                                            href="#!"
+                                            class="footer__text footer__link"
+                                            >Help center</a
+                                        >
+                                    </li>
+                                    <li class="footer__link-item">
+                                        <a
+                                            href="#!"
+                                            class="footer__text footer__link"
+                                            >Account information</a
+                                        >
+                                    </li>
+                                </ul>
                             </nav>
                         </div>
 
                         <div class="footer__column-row footer__column-row--2">
                             <h3 class="footer__title">Support</h3>
-                            <nav class="footer__link-container-2">
-                                <a href="#!" class="footer__text footer__link"
-                                    >Help center</a
-                                >
+                            <nav class="footer__link-container">
+                                <ul class="footer__link-list-2">
+                                    <li class="footer__link-item">
+                                        <a
+                                            href="#!"
+                                            class="footer__text footer__link"
+                                            >Help center</a
+                                        >
+                                    </li>
+                                </ul>
                             </nav>
                         </div>
                     </div>
@@ -703,7 +755,9 @@
                         <div class="footer__social-media">
                             <h3 class="footer__title">Stay In Touch</h3>
                             <div class="footer__social-row">
-                                <div class="footer__bg-social-icon footer__bg-social-icon--hover">
+                                <div
+                                    class="footer__bg-social-icon footer__bg-social-icon--hover"
+                                >
                                     <img
                                         src="./assets/icon/facebook.svg"
                                         alt="Facebook"
@@ -742,7 +796,9 @@
                                     id="email"
                                     placeholder="Enter your email..."
                                 />
-                                <a href="#!" class="btn footer__btn">Subscribe</a>
+                                <a href="#!" class="btn footer__btn"
+                                    >Subscribe</a
+                                >
                             </div>
                         </div>
                     </div>
